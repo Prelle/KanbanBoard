@@ -50,7 +50,7 @@ class AuthService {
     localStorage.removeItem('token');
 
     // Redirect to the login page
-    window.location.assign('/login');
+    window.location.assign('/loginpage');
   }
 }
 
